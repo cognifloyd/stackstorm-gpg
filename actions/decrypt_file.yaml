@@ -1,6 +1,6 @@
 ---
   name: "decrypt_file"
-  runner_type: "run-python"
+  runner_type: "python-script"
   description: "Decrypt asymmetrically encrypted GPG file."
   enabled: true
   entry_point: "decrypt_file.py"
